@@ -1,0 +1,70 @@
+<!--
+编辑自DaveHuang
+-->
+
+<!doctype html> 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>生日快乐</title>
+    
+    <link type="text/css" rel="stylesheet" href="./source/default.css">
+    <script type="text/javascript" src="./source/jquery.min.js"></script>
+    <script type="text/javascript" src="./source/jscex.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-parser.js"></script>
+    
+    <style type="text/css">
+    </style>
+    <script>
+        var lover = {};
+        lover.info = {
+            name: "致王莹颖", //点开时爱心桃旁边的字
+            year: 1994,     //相遇的年份
+            month: 12,      //月
+            day: 22,        //日
+            hour: 0,       //小时
+            minute: 0,     //分钟
+            second: 0,      //秒
+            
+            debug: false,   //是否开启调试模式（如果选是，则会弹窗提示为什么加载出错）
+        }
+    </script>
+</head>
+<body>
+    <!-- 背景音乐部分 -->
+    <audio id="loveBgm" src="rgwan.mp3" loop="loop"></audio>
+    
+	<div id="main">
+        <div id="error">
+            本页面采用HTML5编辑，目前您的浏览器无法显示，请换成(<a href="http://dl.360safe.com/netunion/20140425/360se+14478+n4a1de2568d.exe">360</a>)
+            或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。
+        </div>
+		<div id="wrap">
+			<div id="text">
+				<div id="code">
+                    <span class="say">亲爱的自己：生日快乐！</span><br>
+					<span class="say"> 小时候我们经常想着：如果可以快点长大，该有多好，可以不再听父母的唠唠叨叨，也可以做那些自己想做的事情，可是谁也没有告诉我们，其实长大只是一瞬间的事情，一转眼就到了二十多岁的年龄，褪去了一身的青涩，也褪去了当时懵懂和无知，也褪去了当时那个幼稚胆小鬼的模样，那个稚嫩的我们。</span><br>
+                    <span class="say"></span><br />
+                    <span class="say"> 现在越长大越不想过生日，大概是因为长大一岁，明白自己需要承担的东西是什么，也渐渐明白了责任和担当的含义，看到父母慢慢老去的容颜，明白时间是让人猝不及防的东西，好的坏的都是风景，越长大也明白了看到跟自己一样的同龄人学有所成，事业有成，而比着同龄人该有的成熟和稳重，自己却还没有。小时候把自己未来想的非常完美，大概是因为我们长大了，但是却不知道长大之后却没能成为自己想成为的那种人。</span><br>
+                    <span class="say"></span><br />
+                    <span class="say"> 一路同行的小伙伴们，谢谢一路你们都在，也希望长大的自己可以成长为更好的自己。最后悄悄地祝自己生日快乐❤️🎂✨，记得去年冬天我生日下了很大的雪，那场雪，飘了一天一夜，特别漂亮！</span><br>
+				</div>
+			</div>
+			<div id="clock-box">
+				<span><font color="#666666">承蒙时光不弃，又长大一岁。生命已经流逝</font></span>
+				<div id="clock"></div>
+			</div>
+			<canvas id="canvas" width="1100" height="680"></canvas>
+		</div>
+	</div>
+    <script type="text/javascript" src="./source/jscex-jit.js"></script>
+    <script type="text/javascript" src="./source/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./source/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./source/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./source/love.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./source/canvas.js" charset="utf-8"></script>
+</body>
+</html>
